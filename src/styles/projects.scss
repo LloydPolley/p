@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+.projects {
+  text-align: left;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__anchor-box {
+    margin: $small-padding 0;
+
+    &:hover {
+      background-color: $dark;
+
+      a {
+        color: $light;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: $dark;
+      font-size: 12vw;
+    }
+  }
+}

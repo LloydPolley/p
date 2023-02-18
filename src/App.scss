@@ -1,0 +1,30 @@
+@import "./styles/variables.scss";
+
+body {
+  background-color: $light;
+  color: $dark;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+@keyframes home-opener {
+  from {
+    height: 100%;
+  }
+  to {
+    height: 0%;
+  }
+}
+
+.navigation-animation {
+  height: 100%;
+  width: 100%;
+  background-color: $dark;
+  position: fixed;
+  z-index: 2;
+  animation: home-opener 0.35s forwards ease-in-out;
+  transform: rotate(180);
+}

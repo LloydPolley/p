@@ -1,0 +1,88 @@
+@import "../styles/variables.scss";
+@import "../index.scss";
+
+.landing {
+  text-align: left;
+  margin: 75px 10%;
+
+  &__intro {
+    margin-bottom: $large-padding;
+    h1 {
+      font-size: 15px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      margin-bottom: $small-padding;
+    }
+    p,
+    a {
+      margin: 5px 0;
+      font-size: 13px;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+      color: $dark;
+    }
+  }
+
+  &__hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  &__hero-ctas {
+    display: flex;
+    flex-direction: column;
+    a {
+      text-decoration: none;
+      color: $dark;
+      font-size: 20vw;
+      line-height: 1;
+      margin-bottom: 4vh;
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .landing {
+    margin: 0;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    &__content {
+      display: flex;
+      flex-direction: row;
+      align-content: flex-end;
+      width: auto;
+      margin: auto;
+      max-width: 1200px;
+      width: 70vw;
+    }
+
+    &__intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      margin-bottom: 2vh;
+      margin-right: 50px;
+    }
+
+    &__hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      a {
+        font-family: "Coco";
+      }
+    }
+
+    &__hero-ctas {
+      a {
+        text-decoration: none;
+        color: $dark;
+        font-size: 12vw;
+      }
+    }
+  }
+}
