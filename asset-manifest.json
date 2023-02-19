@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lwp-portfolio/static/css/main.6bc259a7.css",
-    "main.js": "/lwp-portfolio/static/js/main.c595b431.js",
-    "static/js/787.a0007c92.chunk.js": "/lwp-portfolio/static/js/787.a0007c92.chunk.js",
-    "static/media/afterlife-mob-bg.jpeg": "/lwp-portfolio/static/media/afterlife-mob-bg.a0b0d6f93cb98af5b017.jpeg",
-    "index.html": "/lwp-portfolio/index.html",
-    "main.6bc259a7.css.map": "/lwp-portfolio/static/css/main.6bc259a7.css.map",
-    "main.c595b431.js.map": "/lwp-portfolio/static/js/main.c595b431.js.map",
-    "787.a0007c92.chunk.js.map": "/lwp-portfolio/static/js/787.a0007c92.chunk.js.map"
+    "main.css": "/p/static/css/main.7ffde68d.css",
+    "main.js": "/p/static/js/main.ae12a8ef.js",
+    "static/js/787.674770d0.chunk.js": "/p/static/js/787.674770d0.chunk.js",
+    "static/media/afterlife-mob-bg.jpeg": "/p/static/media/afterlife-mob-bg.a0b0d6f93cb98af5b017.jpeg",
+    "index.html": "/p/index.html",
+    "main.7ffde68d.css.map": "/p/static/css/main.7ffde68d.css.map",
+    "main.ae12a8ef.js.map": "/p/static/js/main.ae12a8ef.js.map",
+    "787.674770d0.chunk.js.map": "/p/static/js/787.674770d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bc259a7.css",
-    "static/js/main.c595b431.js"
+    "static/css/main.7ffde68d.css",
+    "static/js/main.ae12a8ef.js"
   ]
 }
