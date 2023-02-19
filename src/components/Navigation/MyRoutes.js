@@ -8,13 +8,13 @@ import Nova from "../../pages/projects/Nova";
 import Contact from "../../pages/Contact";
 
 export default function MyRoutes() {
-  console.log("routes");
+  console.log("routes", process.env.PUBLIC_URL);
   return (
-    <HashRouter hashType="" basename="/lwp-portfolio">
+    <HashRouter basename="/p">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/work" element={<Work />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/work" element={<Work />} />
         <Route path="/projects/nova" element={<Nova />} />
         <Route path="/projects/apple" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />

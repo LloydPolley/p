@@ -6,7 +6,7 @@
   margin: 75px 10%;
 
   &__intro {
-    margin-bottom: $large-padding;
+    margin-bottom: 25px;
     h1 {
       font-size: 15px;
       font-weight: 500;
@@ -27,18 +27,29 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    a {
+      font-family: "Coco";
+    }
   }
 
   &__hero-ctas {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+
     a {
       text-decoration: none;
+      text-transform: uppercase;
       color: $dark;
-      font-size: 20vw;
+      font-size: 15vw;
       line-height: 1;
-      margin-top: 4vh;
     }
+  }
+
+  &__hero-sub {
+    margin-top: 0;
+    color: $dark;
+    font-weight: 300;
   }
 }
 
@@ -72,16 +83,13 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      a {
-        font-family: "Coco";
-      }
     }
 
     &__hero-ctas {
       a {
         text-decoration: none;
         color: $dark;
-        font-size: 12vw;
+        font-size: 125px;
       }
     }
   }

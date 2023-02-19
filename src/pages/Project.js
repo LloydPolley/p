@@ -21,13 +21,12 @@ function Projects() {
         </div>
         <div className="landing__hero">
           <div className="landing__hero-ctas">
-            <a href="/projects/nova">Nova</a>
-
-            <a href="/">Apple</a>
-
-            <a href="/">TicTacToe</a>
-
-            <a href="/">NodeAPI</a>
+            <a href="/projects/nova">River</a>
+            <p className="landing__hero-sub">River Island</p>
+            <a href="/">Nova</a>
+            <p className="landing__hero-sub">River Island</p>
+            <a href="/">Premr</a>
+            <p className="landing__hero-sub">River Island</p>
           </div>
         </div>
       </div>
