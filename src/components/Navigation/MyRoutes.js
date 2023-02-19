@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Home from "../../pages/Home";
 import Work from "../../pages/Work";
@@ -8,8 +8,9 @@ import Nova from "../../pages/projects/Nova";
 import Contact from "../../pages/Contact";
 
 export default function MyRoutes() {
+  console.log("routes");
   return (
-    <BrowserRouter>
+    <HashRouter hashType="" basename="/lwp-portfolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
@@ -18,6 +19,6 @@ export default function MyRoutes() {
         <Route path="/projects/apple" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
