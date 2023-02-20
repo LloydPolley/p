@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/home.scss";
+import BigList from "../components/BigList/BigList";
 
 function Projects() {
   return (
@@ -20,14 +21,13 @@ function Projects() {
           </p>
         </div>
         <div className="landing__hero">
-          <div className="landing__hero-ctas">
-            <a href="/projects/nova">River</a>
-            <p className="landing__hero-sub">River Island</p>
-            <a href="/">Nova</a>
-            <p className="landing__hero-sub">River Island</p>
-            <a href="/">Premr</a>
-            <p className="landing__hero-sub">River Island</p>
-          </div>
+          <BigList
+            list={[
+              { link: "", name: "River", subtext: "River Island" },
+              { link: "", name: "Nova 2", subtext: "Music streaming" },
+              { link: "", name: "PremR", subtext: "Football stats" },
+            ]}
+          />
         </div>
       </div>
     </div>
