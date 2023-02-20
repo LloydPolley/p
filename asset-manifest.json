@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/p/static/css/main.80e47854.css",
-    "main.js": "/p/static/js/main.a434be47.js",
+    "main.css": "/p/static/css/main.034710a9.css",
+    "main.js": "/p/static/js/main.611f1298.js",
     "static/js/787.674770d0.chunk.js": "/p/static/js/787.674770d0.chunk.js",
     "static/media/afterlife-mob-bg.jpeg": "/p/static/media/afterlife-mob-bg.a0b0d6f93cb98af5b017.jpeg",
     "index.html": "/p/index.html",
-    "main.80e47854.css.map": "/p/static/css/main.80e47854.css.map",
-    "main.a434be47.js.map": "/p/static/js/main.a434be47.js.map",
+    "main.034710a9.css.map": "/p/static/css/main.034710a9.css.map",
+    "main.611f1298.js.map": "/p/static/js/main.611f1298.js.map",
     "787.674770d0.chunk.js.map": "/p/static/js/787.674770d0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80e47854.css",
-    "static/js/main.a434be47.js"
+    "static/css/main.034710a9.css",
+    "static/js/main.611f1298.js"
   ]
 }
