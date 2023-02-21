@@ -17,29 +17,25 @@
     transition: 0.2s all;
     transform: skewX(0deg);
     width: initial;
-    color: rgb(57, 57, 62);
-    // background-color: red;
-    // color: white;
-
-    &:hover {
-      transform: skewX(10deg);
-      background-color: initial;
-      color: rgb(30, 30, 59);
-    }
   }
 
   &__subtext {
     margin-top: -10px;
     color: grey;
-    // display: none;
   }
 }
 
 @media only screen and (min-width: 1000px) {
   .big-list {
     a {
-      text-decoration: none;
-      font-size: 125px;
+      font-size: 9.5vw;
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .big-list {
+    a {
+      font-size: 140px;
     }
   }
 }

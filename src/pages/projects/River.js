@@ -5,10 +5,9 @@ import "./projects.scss";
 function River() {
   return (
     <div className="project">
-      <Header title="Nova 2" />
+      <Header title="River Island" />
       <p className="project__desc">
-        A music streaming website was built with Next.js and Firebase, inspired
-        by popular platforms such as Soundcloud, Mixcloud, and Beatport.
+        Online & instore fashion brand with ecommerce website
       </p>
     </div>
   );

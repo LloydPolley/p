@@ -3,12 +3,12 @@
 
 .landing {
   text-align: left;
-  margin: 75px 10%;
+  margin: 0 10%;
 
   &__intro {
     margin-bottom: 25px;
     h1 {
-      font-size: 15px;
+      font-size: 20px;
       font-weight: 500;
       letter-spacing: 2px;
       margin-bottom: $small-padding;
@@ -16,17 +16,19 @@
     p,
     a {
       margin: 5px 0;
-      font-size: 13px;
+      font-size: 16px;
       font-weight: 300;
       letter-spacing: 0.5px;
       color: $dark;
     }
   }
+  &__content {
+  }
 }
 
 @media only screen and (min-width: 1000px) {
   .landing {
-    margin: 0;
+    margin: 75px;
     height: 90vh;
     display: flex;
     justify-content: space-around;
@@ -36,17 +38,14 @@
       display: flex;
       flex-direction: row;
       align-content: flex-end;
-      width: auto;
       margin: auto;
       max-width: 1200px;
-      margin: 75px;
     }
 
     &__intro {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      margin-bottom: 2vh;
       margin-right: 50px;
       width: 370px;
     }

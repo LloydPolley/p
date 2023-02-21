@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.project {
+  margin: 0 5%;
+
+  &__desc {
+    font-size: 28px;
+    text-align: left;
+    width: 85%;
+    margin: 20px auto 0;
+  }
+}

@@ -23,8 +23,16 @@ function Projects() {
         <div className="landing__hero">
           <BigList
             list={[
-              { link: "", name: "River", subtext: "River Island" },
-              { link: "", name: "Nova 2", subtext: "Music streaming" },
+              {
+                link: "projects/river",
+                name: "River",
+                subtext: "River Island",
+              },
+              {
+                link: "projects/nova",
+                name: "Nova 2",
+                subtext: "Music streaming",
+              },
               { link: "", name: "PremR", subtext: "Football stats" },
             ]}
           />

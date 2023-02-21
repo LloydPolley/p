@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../../pages/Home";
 import Work from "../../pages/Work";
 import Projects from "../../pages/Project";
+import River from "../../pages/projects/River";
 import Nova from "../../pages/projects/Nova";
 import Contact from "../../pages/Contact";
 
@@ -15,8 +16,8 @@ export default function MyRoutes() {
         <Route path="/" p element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/projects/river" element={<River />} />
         <Route path="/projects/nova" element={<Nova />} />
-        <Route path="/projects/apple" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
