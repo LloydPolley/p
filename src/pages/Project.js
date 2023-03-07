@@ -4,7 +4,7 @@ import BigList from "../components/BigList/BigList";
 
 function Projects() {
   return (
-    <div className="landing">
+    <div className="landing landing-dark">
       {/* <div className="navigation-animation" /> */}
       <div className="landing__content">
         <div className="landing__intro">
