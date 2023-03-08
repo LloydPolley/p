@@ -1,8 +1,8 @@
 @import "./styles/variables.scss";
 
 body {
-  // background-color: $light;
-  background-color: $dark;
+  background-color: $light;
+  // background-color: $dark;
   color: $dark;
   text-align: center;
 }
@@ -11,7 +11,7 @@ h1,
 h2,
 p,
 a {
-  color: $light !important;
+  // color: $light !important;
 }
 h1 {
   margin: 0;
